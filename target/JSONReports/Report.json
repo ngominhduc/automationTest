@@ -1,0 +1,175 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-16T10:20:20.579Z",
+        "line": 12,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3836000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "trinh duyet duoc mo",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps.trinh_duyet_duoc_mo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4803000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user dang o trang login",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps.user_dang_o_trang_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2212000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user nhap Raghav va 123455",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raghav",
+                  "offset": 10
+                },
+                {
+                  "val": "123455",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.LoginDemoSteps.user_nhap_username_va_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2171000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click vao nut dang nhap",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps.user_click_vao_nut_dang_nhap()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4826000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user den trang chu",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps.user_den_trang_chu()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-16T10:20:38.588Z",
+        "line": 13,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1392000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "trinh duyet duoc mo",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps.trinh_duyet_duoc_mo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 842000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user dang o trang login",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps.user_dang_o_trang_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2224000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user nhap Ele va 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ele",
+                  "offset": 10
+                },
+                {
+                  "val": "12345",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitions.LoginDemoSteps.user_nhap_username_va_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2081000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click vao nut dang nhap",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps.user_click_vao_nut_dang_nhap()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4863000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user den trang chu",
+            "match": {
+              "location": "StepDefinitions.LoginDemoSteps.user_den_trang_chu()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginDemo.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="29.787">
+<testcase classname="Test login functionality" name="Check login is successful with valid credentials" time="17.984">
+<system-out><![CDATA[Given trinh duyet duoc mo...................................................passed
+And user dang o trang login.................................................passed
+When user nhap Raghav va 123455.............................................passed
+And user click vao nut dang nhap............................................passed
+Then user den trang chu.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test login functionality" name="Check login is successful with valid credentials 2" time="11.407">
+<system-out><![CDATA[Given trinh duyet duoc mo...................................................passed
+And user dang o trang login.................................................passed
+When user nhap Ele va 12345.................................................passed
+And user click vao nut dang nhap............................................passed
+Then user den trang chu.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
